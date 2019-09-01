@@ -12,9 +12,3 @@ spring:
 mybatis-plus:
   mapper-locations: classpath:com/gzy/hrm/mapper/*Mapper.xml
   type-aliases-package: com.gzy.hrm.domain,com.gzy.hrm.query
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka-7001.com:7001/eureka
-  instance:
-    prefer-ip-address: true
